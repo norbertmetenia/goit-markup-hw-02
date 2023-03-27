@@ -5,51 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/styles.css" rel="stylesheet" />
   </head>
   <body>
     <header>
-      <a href="#">WebStudio</a>
+      <a href="#" class="links"
+        ><span class="semi-tittle">Web</span
+        ><span class="tittle-end">Studio</span></a
+      >
       <nav>
         <ul>
-          <li><a href="#">Agencja</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="#">Kontakt</a></li>
+          <li><a href="#" class="header-list">Agencja</a></li>
+          <li><a href="portfolio.html" class="header-list">Portfolio</a></li>
+          <li><a href="#" class="header-list">Kontakt</a></li>
         </ul>
       </nav>
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a href="tel:48111111111">+48 111 111 111</a>
+      <a href="mailto:info@devstudio.com" class="contact-header"
+        >info@devstudio.com</a
+      >
+      <a href="tel:48111111111" class="contact-header">+48 111 111 111</a>
     </header>
     <main>
       <!--HERO-->
 
-      <section>
-        <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button type="button">Zamów usługe</button>
+      <section class="effective-solutions">
+        <h1 class="hero-text">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+        <button type="button" class="button-buisness">Zamów usługe</button>
       </section>
 
       <!--INFO-->
 
       <section>
-        <ul>
+        <ul class="info-list">
           <li>
-            <p>LOREM IPSUM</p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-            arcu sem. Sed non sodales dui. Interdum et malesuada
+            <p class="list-heading">LOREM IPSUM</p>
+            <p class="list-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+              arcu sem. Sed non sodales dui. Interdum et malesuada
+            </p>
           </li>
           <li>
-            <p>LOREM IPSUM</p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-            arcu sem. Sed non sodales dui. Interdum et malesuada
+            <p class="list-heading">LOREM IPSUM</p>
+            <p class="list-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+              arcu sem. Sed non sodales dui. Interdum et malesuada
+            </p>
           </li>
           <li>
-            <p>LOREM IPSUM</p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-            arcu sem. Sed non sodales dui. Interdum et malesuada
+            <p class="list-heading">LOREM IPSUM</p>
+            <p class="list-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+              arcu sem. Sed non sodales dui. Interdum et malesuada
+            </p>
           </li>
           <li>
-            <p>LOREM IPSUM</p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-            arcu sem. Sed non sodales dui. Interdum et malesuada
+            <p class="list-heading">LOREM IPSUM</p>
+            <p class="list-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+              arcu sem. Sed non sodales dui. Interdum et malesuada
+            </p>
           </li>
         </ul>
       </section>
@@ -58,7 +78,7 @@
 
       <section>
         <div>
-          <h2>Czym się zajmujemy</h2>
+          <h2 class="header-doing-text">Czym się zajmujemy</h2>
         </div>
         <div>
           <ul>
@@ -94,7 +114,7 @@
 
       <section>
         <div>
-          <h2>Nasz zespół</h2>
+          <h2 class="header-team-text">Nasz zespół</h2>
         </div>
         <div>
           <ul>
@@ -105,8 +125,8 @@
                 width="270"
                 height="260"
               />
-              <h3>John Doe</h3>
-              <p>Product Designer</p>
+              <h3 class="name-list">John Doe</h3>
+              <p class="name-list-description">Product Designer</p>
             </li>
             <li>
               <img
@@ -115,8 +135,8 @@
                 width="270"
                 height="260"
               />
-              <h3>John Doe</h3>
-              <p>Frontend Developer</p>
+              <h3 class="name-list">John Doe</h3>
+              <p class="name-list-description">Frontend Developer</p>
             </li>
             <li>
               <img
@@ -125,8 +145,8 @@
                 width="270"
                 height="260"
               />
-              <h3>John Doe</h3>
-              <p>Marketing</p>
+              <h3 class="name-list">John Doe</h3>
+              <p class="name-list-description">Marketing</p>
             </li>
             <li>
               <img
@@ -135,18 +155,23 @@
                 width="270"
                 height="260"
               />
-              <h3>John Doe</h3>
-              <p>UI Designer</p>
+              <h3 class="name-list">John Doe</h3>
+              <p class="name-list-description">UI Designer</p>
             </li>
           </ul>
         </div>
       </section>
     </main>
     <footer>
-      <a href="#">WebStudio</a>
-      <address>m. Warszawa, Aleje Jerozolimskie 21</address>
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a href="tel:48111111111">+48 111 111 111</a>
+      <a href="#" class="links"
+        ><span class="semi-tittle">Web</span
+        ><span class="tittle-end">Studio</span></a
+      >
+      <address class="adress">m. Warszawa, Aleje Jerozolimskie 21</address>
+      <a href="mailto:info@devstudio.com" class="contact-footer"
+        >info@devstudio.com</a
+      >
+      <a href="tel:48111111111" class="contact-footer">+48 111 111 111</a>
     </footer>
   </body>
 </html>

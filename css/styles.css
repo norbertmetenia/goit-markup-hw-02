@@ -1,0 +1,94 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: rgba(33, 33, 33, 1);
+}
+.semi-tittle {
+  color: rgba(33, 150, 243, 1);
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+}
+.tittle-end {
+  color: rgba(0, 0, 0, 1);
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+}
+.links {
+  text-decoration: none;
+}
+.header-list {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+  font-size: 14px;
+}
+.header-list:hover {
+  color: rgba(33, 150, 243, 1);
+}
+.portfolio-buttons {
+  cursor: pointer;
+}
+.portfolio-buttons:hover {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(33, 150, 243, 1);
+}
+.button-buisness {
+  cursor: pointer;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(33, 150, 243, 1);
+  font-weight: bold;
+}
+.contact-header {
+  color: rgba(117, 117, 117, 1);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+}
+.contact-header:hover {
+  color: rgba(33, 150, 243, 1);
+}
+.contact-footer {
+  color: rgba(117, 117, 117, 1);
+  text-decoration: none;
+  font-size: 14px;
+}
+.effective-solutions {
+  background-color: rgba(47, 48, 58, 1);
+}
+.hero-text {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 900;
+  font-size: 44px;
+}
+.list-heading {
+  font-weight: bold;
+  font-size: 14px;
+}
+.list-text {
+  color: rgba(117, 117, 117, 1);
+  font-size: 14px;
+}
+.header-doing-text {
+  font-weight: bold;
+  font-size: 36px;
+}
+.header-team-text {
+  font-weight: bold;
+  font-size: 36px;
+}
+.name-list {
+  font-weight: 500;
+  font-size: 16px;
+}
+.name-list-description {
+  color: rgba(117, 117, 117, 1);
+}
+.adress {
+  font-size: 14px;
+}
+.all-different-things {
+  font-weight: bold;
+  font-size: 18px;
+}
+.description-things {
+  color: rgba(117, 117, 117, 1);
+}
